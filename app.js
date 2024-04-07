@@ -4,7 +4,8 @@ let btns = ["red","yellow","purple","green"];
 let h2 = document.querySelector("h2");
 let start = false;
 let level = 0;
-document.addEventListener("keypress", function () {
+let startButton = document.getElementById("startButton");
+startButton.addEventListener("click", function () {
     if (start == false) {
         console.log("Game start!");
         start = true;
@@ -74,4 +75,22 @@ function reset() {
     gameSq = [];
     userSq = [];
     level = 0;
+}
+
+function gameFlash(btn) {
+    btn.classList.add("flash");
+    let colorSound = document.getElementById(btn.getAttribute("id") + "Sound");
+    colorSound.play();
+    setTimeout(function() {
+        btn.classList.remove("flash");
+    }, 500);
+}
+
+function userFlash(btn) {
+    btn.classList.add("userflash");
+    let colorSound = document.getElementById(btn.getAttribute("id") + "Sound");
+    colorSound.play();
+    setTimeout(function() {
+        btn.classList.remove("userflash");
+    }, 300);
 }

@@ -38,3 +38,26 @@ body{
 .userflash{
     background-color: green;
 }
+
+#startButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 4px solid black; /* Blue border */
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  #startButton:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    border-color: black; /* Darker blue border on hover */
+  }
+  
+  #startButton:active {
+    background-color: #004080; /* Dark blue when clicked */
+    border-color: black; /* Dark blue border when clicked */
+  }
+  

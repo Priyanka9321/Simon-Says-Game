@@ -8,20 +8,24 @@
   </head>
   <body>
     <h1>Simon Says Game</h1>
-    <h2>Press any key to strat the game</h2>
-
+    <h2>Press strat button to start the game</h2>
+    <audio id="redSound" src="./sound/red-flash.mp3"></audio>
+    <audio id="yellowSound" src="./sound/red-flash.mp3"></audio>
+    <audio id="purpleSound" src="./sound/red-flash.mp3"></audio>
+    <audio id="greenSound" src="./sound/red-flash.mp3"></audio>
     <div class="btn-container">
-
       <div class="line-one">
         <div class="btn red" type="button" id="red"></div>
         <div class="btn yellow" type="button" id="yellow"></div>
       </div>
-      
+
       <div class="line-two">
         <div class="btn green" type="button" id="green"></div>
         <div class="btn purple" type="button" id="purple"></div>
       </div>
+
     </div>
+    <button id="startButton">Start</button>
     <script src="app.js"></script>
   </body>
 </html>
