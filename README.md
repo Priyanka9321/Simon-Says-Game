@@ -20,7 +20,6 @@ Welcome to Simon Says, a classic memory game where you have to repeat sequences 
 - Interactive gameplay with colorful buttons and sounds.
 - Progressive difficulty to challenge your memory skills.
 - Simple and intuitive user interface.
-- Leaderboard to track high scores and compete with friends.
 - Sound effects and animations to enhance the gaming experience.
 
 ## Technologies Used
