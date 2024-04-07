@@ -24,9 +24,9 @@ Welcome to Simon Says, a classic memory game where you have to repeat sequences 
 - Sound effects and animations to enhance the gaming experience.
 
 ## Technologies Used
-HTML5
-CSS3
-JavaScript
+- HTML5
+- CSS3
+- JavaScript
 
 ## Contribution
 Contributions are welcome! If you'd like to improve the game or fix any issues, feel free to fork the repository and submit a pull request.
@@ -36,7 +36,7 @@ This game is inspired by the classic electronic game "Simon" invented by Ralph H
 
 ## Installation
 
-1. Clone the repository:
+Clone the repository:
 
 ```bash
 git clone https://github.com/Priyanka9321/Simon-Says-Game.git
